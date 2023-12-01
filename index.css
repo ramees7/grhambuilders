@@ -13,8 +13,9 @@ body{
     background-color: #fff;
 }
 .logo-img-nav{
-    height: 80px; 
-    width: 200px ;
+    height: 100px; 
+    width: 130px ;
+    padding: 6px;
 }
 .nav-item{
     margin: 0 10px ;
@@ -59,7 +60,7 @@ body{
 .home-img-overlay{
     position: absolute; 
 }
-.home-img-overlay h2{
+.home-img-overlay p{
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 3px;
     color: #fff;
@@ -73,7 +74,7 @@ body{
 }
 .home-img-overlay-btn-1{
     border-radius: 0;
-    width: 45%;
+    width: 50%;
     margin: 2% 5% 2% 0;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
@@ -111,20 +112,18 @@ body{
     margin: 5% 10%;
     --bs-gutter-x: 10px;
     --bs-gutter-y: 10px;
-    /* background-color: #000000; */
 }
 .featured-product h1{
     font-family: 'PT Sans Narrow', sans-serif;
 }
 .featured-product-img{
     width: 100%;
-    height: 100%;
+    height: 400px;
     transition: 0.1s all ease-in-out;
 }
 .featured-product-img:hover{
     opacity: 50%;
     transform: scale(0.95);
-    
 }
 /* --------------featured------------------------- */
 /* ------------------since----------------- */
@@ -179,14 +178,19 @@ body{
 .footer-img{
     opacity: 20%;
     width: 100%;
-    height: 431px;
+    height: 360px;
+}
+.footer-logo-img{
+    height: 90px; 
+    width: 270px;
 }
 .footer-social{
-    padding: 5% 10% 3% 10%;
-    display: block;
+    padding: 5% 10% 0 10%;
 }
-
-
+.social-media-icons i{
+    font-size: xx-large;
+    margin-top: 10px;
+}
 .quick-link li{
     list-style-type:circle;
     padding-top: 8px;
@@ -201,6 +205,9 @@ body{
 .contact-info-content a{
     text-decoration: none;
 }
+.contact-info-content {
+    padding-left: 30px;
+}
 .Copyright-div {
     background-color: #000000;
     opacity: 80%; 
@@ -210,11 +217,11 @@ body{
     margin:6px 0; 
     color: #efefef;  
 }
-.Copyright-div p{
+/* .Copyright-div p{
     margin-bottom: 3px;
     color: #ffffff;
     font-size: 15px;
-}
+} */
 /* ---------------footer-contact----------------- */
 
 
@@ -228,12 +235,9 @@ body{
 
 
 
-
+/* --------------------------------Extra-pages------------------------------------------ */
 
 /* -----------------------------project page------------------------ */
-.extra-pages-navbar{
-    background-color: #f2f2f2;
-}
 .our-projects{
     margin: 5% 10%;
 }
@@ -245,6 +249,16 @@ body{
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    padding-top: 5px;
+}
+.our-projects-content{
+    width: 320px; 
+    height: 350px; 
+    margin: 20px 2px; 
+    text-align: center;
+}
+.our-projects-content img{
+    height: 300px;
 }
 .our-projects h6{
     font-family: 'PT Sans Narrow', sans-serif;
@@ -255,11 +269,18 @@ body{
 .our-team{
     margin: 5% 10%;
 }
+.our-team-grp-img{
+    margin: 5% 10%; 
+    padding: 0 15%;
+}
 .our-team-details{
-    padding: 0 10px;
+    width: 300px; 
+    height: 500px; 
+    margin: 20px 2px; 
+    text-align: center;
 }
 .our-team-details-inner{
-    height: 300px;
+    height: 330px;
 }
 .our-team-details h5{
     font-family: 'PT Sans Narrow', sans-serif;
@@ -285,7 +306,6 @@ body{
 .our-socialmedia h1{
     font-family: 'PT Sans Narrow', sans-serif;
     margin-bottom: 15px;
-    /* font-weight: bold; */
     letter-spacing: 1px;
 }
 .our-socialmedia p{
@@ -298,10 +318,13 @@ body{
 .contact-page{
     margin: 5% 10%;
 }
+.contact-page-inner{
+    width: 600px; 
+    height: 500px; 
+    margin: 20px 2px; 
+}
 .contact-page h1{
     font-family: 'PT Sans Narrow', sans-serif;
-    margin-bottom: 15px;
-    /* font-weight: bold; */
     letter-spacing: 1px;
 }
 .contact-page h5,h6{
